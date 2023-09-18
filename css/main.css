@@ -35,10 +35,19 @@ body {
   text-align: center;
   font-size: 20px;
   font-weight: 300;
+  padding: 0px 0px 20px 0px;
 }
 
 h1 {
   text-align: center;
+  font-size: 50px;
+  font-weight: 300;
+  padding: 20px 20px 10px 20px;
+}
+
+span {
+  font-size: 50px;
+  font-weight: 800;
 }
 
 nav {
@@ -122,6 +131,7 @@ h3 {
 
 .whats-new {
   background: #f4ede8;
+  padding-bottom: 1px;
 }
 
 main a {
@@ -167,4 +177,65 @@ video {
   font-size: 15px;
   font-weight: 300;
   padding: 20px;
+}
+
+.Opportunities {
+  background: #d7a1fd;
+  padding: 20px;
+}
+
+.Opportunities h2 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.box-opportunites {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card-opportunites {
+  background: #98fb00;
+  border: #000 solid 1px;
+  padding: 10px;
+}
+
+.card-opportunites p {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 800;
+}
+
+footer {
+  background: #000;
+}
+
+footer h2 {
+  color: #313131;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+footer a {
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-family: Noto Serif;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.box-transform {
+  display: flex;
+  flex-direction: column;
 }
