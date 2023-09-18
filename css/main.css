@@ -37,6 +37,10 @@ body {
   font-weight: 300;
 }
 
+h1 {
+  text-align: center;
+}
+
 nav {
   background: #000;
 }
@@ -45,6 +49,7 @@ nav a {
   color: #fff;
   font-size: 18px;
   font-weight: 300;
+  text-decoration: none;
 }
 
 .box-card h2 {
@@ -65,8 +70,11 @@ nav a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
   margin: 20px;
+}
+
+.box-card img {
+  border-bottom: 7px solid #d7a1fd;
 }
 
 .card {
@@ -82,6 +90,44 @@ h3 {
   font-weight: 300;
 }
 
+.button-programme {
+  background: #000;
+  color: #d7a1fd;
+  text-align: center;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 800;
+  padding: 20px 30px;
+  margin: 30px 97px 60px 97px;
+}
+
+.quote {
+  background: #98fb00;
+  padding: 20px;
+}
+
+.quote h2 {
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 800;
+}
+
+.quote p {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.whats-new {
+  background: #f4ede8;
+}
+
+main a {
+  text-decoration: none;
+}
+
 a {
   color: inherit;
 }
@@ -91,4 +137,34 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: text-top;
+}
+
+.box-card-radius {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.card-radius {
+  background: #fff;
+  width: 189px;
+  border-radius: 20px;
+}
+
+.box-card-radius img {
+  border-radius: 20px 20px 0 0;
+}
+
+.box-card-radius strong {
+  padding: 20px;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 800;
+}
+
+.box-card-radius p {
+  font-size: 15px;
+  font-weight: 300;
+  padding: 20px;
 }
