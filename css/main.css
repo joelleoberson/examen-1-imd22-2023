@@ -76,6 +76,7 @@ nav a {
 
 .whats-on {
   margin: 60px 20px 30px 20px;
+  font-family: "Noto Serif", serif;
 }
 
 .box-card h2 {
@@ -233,6 +234,7 @@ video {
   background: #98fb00;
   border: #000 solid 1px;
   padding: 10px;
+  max-width: 214px;
 }
 
 .card-opportunites p {
